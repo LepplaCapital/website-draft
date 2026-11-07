@@ -1356,6 +1356,11 @@ main {
   font-size: 1rem;
 }
 
+.contact-page {
+  display: grid;
+  gap: clamp(2.5rem, 5vw, 3.5rem);
+}
+
 .contact-page .contact-lede {
   margin: 0 0 1.25rem;
   color: var(--muted);
@@ -1375,6 +1380,92 @@ main {
   font-size: 1.15rem;
   font-weight: 600;
   color: var(--navy);
+}
+
+.contact-calendar-head .kicker {
+  margin: 0 0 0.35rem;
+}
+
+.contact-calendar-head h2 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  font-weight: 600;
+  color: var(--navy);
+  letter-spacing: -0.02em;
+}
+
+.contact-calendar-note {
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.calendar-month {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--navy);
+  padding: 0.85rem 0.75rem 0.95rem;
+}
+
+.calendar-month-title {
+  margin: 0 0 0.65rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-align: center;
+}
+
+.calendar-weekdays,
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.15rem;
+}
+
+.calendar-weekdays span {
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gold);
+  padding: 0.15rem 0;
+}
+
+.calendar-days span {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.78rem;
+  color: var(--ink);
+  border-radius: 2px;
+}
+
+.calendar-days .is-empty {
+  visibility: hidden;
+}
+
+.calendar-days .is-past {
+  color: #a0a6ad;
+}
+
+.calendar-days .is-today {
+  background: var(--gold);
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.calendar-days .is-weekend:not(.is-today):not(.is-past) {
+  color: var(--muted);
 }
 
 .legal-page {
