@@ -1382,8 +1382,15 @@ main {
   color: var(--navy);
 }
 
+.contact-calendar {
+  margin-top: 0.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
 .contact-calendar-head .kicker {
   margin: 0 0 0.35rem;
+  color: var(--gold);
 }
 
 .contact-calendar-head h2 {
