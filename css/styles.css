@@ -224,15 +224,21 @@ main {
 
 .hero-lede {
   margin: 0 auto 1.5rem;
-  max-width: 50rem;
+  max-width: 56rem;
   font-size: 1.05rem;
-  line-height: 1.65;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.88);
-  text-align: center;
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  word-spacing: normal;
 }
 
 .hero-lede p {
   margin: 0 0 1rem;
+  text-align: justify;
+  text-align-last: left;
 }
 
 .hero-lede p:last-child {
@@ -273,7 +279,7 @@ main {
   border-bottom: 1px solid rgba(255, 255, 255, 0.22);
   font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.92);
-  max-width: 52rem;
+  max-width: 40rem;
 }
 
 .hero-fees strong {
@@ -3169,7 +3175,7 @@ main {
 }
 
 .edition-apart {
-  margin-top: auto;
+  margin-top: 0.5rem;
 }
 
 .differ-grid-story {

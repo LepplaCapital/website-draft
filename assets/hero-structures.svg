@@ -1,0 +1,32 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-label="Your Bank linked to Layered Cash Management and Securities Investment Pyramid">
+  <rect width="900" height="480" fill="#0b2a4a"/>
+  <rect x="310" y="36" width="280" height="78" rx="18" fill="#b98421"/>
+  <text x="450" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#08284a">Your Bank</text>
+
+  <!-- vertical arrows -->
+  <line x1="230" y1="125" x2="230" y2="201" stroke="#e8d7ae" stroke-width="2.5"/>
+  <polygon points="230,114 221,128 239,128" fill="#e8d7ae"/>
+  <polygon points="230,212 221,198 239,198" fill="#e8d7ae"/>
+
+  <line x1="670" y1="125" x2="670" y2="201" stroke="#e8d7ae" stroke-width="2.5"/>
+  <polygon points="670,114 661,128 679,128" fill="#e8d7ae"/>
+  <polygon points="670,212 661,198 679,198" fill="#e8d7ae"/>
+
+  <rect x="80" y="220" width="300" height="100" rx="16" fill="#08284a"/>
+  <text x="230" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#ffffff">Layered Cash Management</text>
+
+  <rect x="520" y="220" width="300" height="100" rx="16" fill="#0f355f"/>
+  <text x="670" y="278" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#ffffff">Securities Investment Pyramid™</text>
+
+  <!-- horizontal arrow -->
+  <line x1="397" y1="270" x2="503" y2="270" stroke="#e8d7ae" stroke-width="2.5"/>
+  <polygon points="386,270 400,261 400,279" fill="#e8d7ae"/>
+  <polygon points="514,270 500,261 500,279" fill="#e8d7ae"/>
+
+  <text x="230" y="350" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#e8d7ae">25 Basis Points</text>
+  <text x="670" y="350" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#e8d7ae">75 Basis Points</text>
+
+  <text x="210" y="418" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#e8d7ae">Discipline</text>
+  <text x="450" y="418" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#e8d7ae">Integrity</text>
+  <text x="690" y="418" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#e8d7ae">Prosperity</text>
+</svg>

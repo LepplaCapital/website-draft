@@ -10,13 +10,13 @@
   <text x="185" y="88" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="17" font-weight="600" fill="#ffffff">Layered Cash Management</text>
   <text x="185" y="114" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e8d7ae">L1 – L4 · Two-year reserve</text>
   <text x="185" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.88)">Duration · operating surplus</text>
-  <text x="185" y="168" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">20 Basis Points</text>
+  <text x="185" y="168" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">25 Basis Points</text>
 
   <rect x="390" y="52" width="290" height="148" rx="6" fill="#0f355f"/>
   <text x="535" y="88" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="16" font-weight="600" fill="#ffffff">Securities Investment Pyramid™</text>
   <text x="535" y="114" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e8d7ae">Strategic long-term reserves</text>
   <text x="535" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.88)">Risk tolerance · written mandate</text>
-  <text x="535" y="168" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">80 Basis Points</text>
+  <text x="535" y="168" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">75 Basis Points</text>
 
   <!-- Between structures -->
   <line x1="330" y1="126" x2="390" y2="126" stroke="#b98421" stroke-width="2.5"/>

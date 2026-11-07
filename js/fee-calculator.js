@@ -2,7 +2,7 @@
   var root = document.getElementById("fee-calculator");
   if (!root) return;
 
-  var LEPPLA_BP = 80;
+  var LEPPLA_BP = 75;
 
   var inputs = {
     capital: root.querySelector("#fee-capital"),

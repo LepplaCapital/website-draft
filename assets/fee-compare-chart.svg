@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" role="img" aria-labelledby="feeTitle feeDesc">
   <title id="feeTitle">Fixed vs variable fee growth</title>
-  <desc id="feeDesc">Line chart comparing ending account value over 10 years at a 1.25 percent variable fee versus an 80 basis point Leppla fee, both billed quarterly.</desc>
+  <desc id="feeDesc">Line chart comparing ending account value over 10 years at a 1.25 percent variable fee versus a 75 basis point Leppla fee, both billed quarterly.</desc>
   <rect width="680" height="340" fill="#faf8f4"/>
 
   <!-- Grid: $0, $4M, $8M, $12M, $16M -->
@@ -67,7 +67,7 @@
   <!-- Legend — side by side -->
   <g font-family="Segoe UI, Arial, sans-serif" font-size="12">
     <line x1="56" y1="312" x2="84" y2="312" stroke="#b98421" stroke-width="3"/>
-    <text x="92" y="316" fill="#08284a">Leppla Capital Fixed 80 Basis Point Fee</text>
+    <text x="92" y="316" fill="#08284a">Leppla Capital Fixed 75 Basis Point Fee</text>
     <line x1="360" y1="312" x2="388" y2="312" stroke="#08284a" stroke-width="3"/>
     <text x="396" y="316" fill="#08284a">Others Variable 125 Basis Point Fee</text>
   </g>
