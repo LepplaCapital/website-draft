@@ -8,8 +8,9 @@
     });
   }
 
-  var mount = document.getElementById("contact-calendar");
-  if (!mount) return;
+  var mount2026 = document.getElementById("contact-calendar-2026");
+  var mount2027 = document.getElementById("contact-calendar-2027");
+  if (!mount2026 && !mount2027) return;
 
   var MONTHS = [
     "January",
@@ -29,26 +30,27 @@
 
   var today = new Date();
   today.setHours(0, 0, 0, 0);
-  var endYear = parseInt(mount.getAttribute("data-end-year") || "2027", 10);
 
-  var cursor = new Date(today.getFullYear(), today.getMonth(), 1);
-  var end = new Date(endYear, 11, 1);
-  var frag = document.createDocumentFragment();
-
-  while (cursor <= end) {
-    frag.appendChild(buildMonth(cursor.getFullYear(), cursor.getMonth()));
-    cursor.setMonth(cursor.getMonth() + 1);
+  if (mount2026) {
+    // November and December 2026 beside Contact
+    mount2026.appendChild(buildMonth(2026, 10));
+    mount2026.appendChild(buildMonth(2026, 11));
   }
 
-  mount.appendChild(frag);
+  if (mount2027) {
+    var year = parseInt(mount2027.getAttribute("data-year") || "2027", 10);
+    var frag = document.createDocumentFragment();
+    var monthIndex;
+    for (monthIndex = 0; monthIndex < 12; monthIndex += 1) {
+      frag.appendChild(buildMonth(year, monthIndex));
+    }
+    mount2027.appendChild(frag);
+  }
 
   function buildMonth(year, monthIndex) {
     var article = document.createElement("article");
     article.className = "calendar-month";
-    article.setAttribute(
-      "aria-label",
-      MONTHS[monthIndex] + " " + year
-    );
+    article.setAttribute("aria-label", MONTHS[monthIndex] + " " + year);
 
     var title = document.createElement("h3");
     title.className = "calendar-month-title";
