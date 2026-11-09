@@ -757,6 +757,15 @@ main {
   color: var(--navy);
 }
 
+.system-desc .system-desc-heading {
+  text-align: center;
+  width: 100%;
+}
+
+.system-desc .system-desc-fee-empty {
+  visibility: hidden;
+}
+
 .system-desc .compare-rows {
   display: contents;
   margin: 0;
