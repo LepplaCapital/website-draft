@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" role="img" aria-labelledby="ccTitle ccDesc">
   <title id="ccTitle">Layered Cash Management</title>
-  <desc id="ccDesc">Liquidity layers L1 through L4 ordered by duration. Liquidity flows to your bank.</desc>
+  <desc id="ccDesc">Liquidity layers L1 through L4 ordered by duration. Liquidity flows back and forth to your bank.</desc>
   <rect width="520" height="380" fill="#ffffff"/>
 
   <!-- Axis matches Pyramid vertical span: y=48 to y=328 -->
@@ -38,5 +38,5 @@
   <rect x="103" y="259" width="384" height="69" rx="3" fill="#051c35"/>
   <text x="295" y="300" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">L1 · Next Month</text>
 
-  <text x="295" y="360" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000">Liquidity flows to your bank</text>
+  <text x="295" y="360" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#000000">Liquidity flows back and forth to your bank</text>
 </svg>
