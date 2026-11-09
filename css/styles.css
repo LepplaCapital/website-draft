@@ -641,15 +641,18 @@ main {
 }
 
 .system-combo-between span {
-  font-size: 1.75rem;
+  font-size: 3.5rem;
   line-height: 1;
 }
 
 .system-combo-between small {
-  font-size: 0.7rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--navy);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #000000;
+  line-height: 1.2;
 }
 
 .system-combo-uplinks {
@@ -665,7 +668,7 @@ main {
 .system-combo-uplink {
   display: inline-block;
   color: var(--gold);
-  font-size: 1.75rem;
+  font-size: 3.5rem;
   font-weight: 700;
   line-height: 1;
   text-align: center;
@@ -716,9 +719,11 @@ main {
 .system-combo-note {
   margin: 1.15rem 0 1.75rem;
   text-align: center;
-  font-size: 1rem;
-  line-height: 1.55;
-  color: var(--muted);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #000000;
 }
 
 .system-desc-grid {
@@ -1628,7 +1633,7 @@ main {
 
 .page-hero-product .page-lede {
   color: rgba(255, 255, 255, 0.82);
-  max-width: 36rem;
+  max-width: 42rem;
   font-size: 1.15rem;
 }
 
@@ -2299,23 +2304,23 @@ main {
 }
 
 .layer-list .layer-py-direct {
-  background: #2a5f94;
+  background: #6b9a7a;
 }
 
 .layer-list .layer-py-thematic {
-  background: #1a4a7a;
+  background: #4f8560;
 }
 
 .layer-list .layer-py-sector {
-  background: #0f355f;
+  background: #3d6f4e;
 }
 
 .layer-list .layer-py-asset {
-  background: #08284a;
+  background: #2d5a3f;
 }
 
 .layer-list .layer-py-alpha {
-  background: #051c35;
+  background: #1e4330;
 }
 
 .layer-list .layer-py-beta {

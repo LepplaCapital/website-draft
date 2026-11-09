@@ -2,7 +2,7 @@
   var root = document.getElementById("fee-calculator");
   if (!root) return;
 
-  var LEPPLA_BP = 75;
+  var LEPPLA_BP = 65;
 
   var inputs = {
     capital: root.querySelector("#fee-capital"),
@@ -127,7 +127,7 @@
   }
 
   function render() {
-    var capital = Math.max(1000, num(inputs.capital, 5000000));
+    var capital = Math.max(1000, num(inputs.capital, 10000000));
     var years = Math.max(1, Math.min(40, Math.round(num(inputs.years, 10))));
     var ret = Math.max(0, num(inputs.returnPct, 12)) / 100;
     var otherFee = Math.max(0, num(inputs.otherBp, 125)) / 10000;
@@ -198,7 +198,7 @@
         years +
         "-year horizon. Comparison fee at " +
         Math.round(otherFee * 10000) +
-        " bp per year. Leppla Pyramid at " +
+        " bp per year. Leppla Capital Blended Fee at " +
         Math.round(lepplaFee * 10000) +
         " bp per year. Not actual or projected performance.";
     }
@@ -214,7 +214,7 @@
   var resetBtn = root.querySelector("[data-action='reset']");
   if (resetBtn) {
     resetBtn.addEventListener("click", function () {
-      inputs.capital.value = "5000000";
+      inputs.capital.value = "10000000";
       inputs.years.value = "10";
       inputs.returnPct.value = "12";
       inputs.otherBp.value = "125";
